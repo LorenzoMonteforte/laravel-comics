@@ -4,4 +4,126 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+.fonSiz06rem{
+    font-size: 0.6rem;
+}
+
+.marLef3rem{
+    margin-left: 3rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.colBlu{
+    color: rgb(18,123,233);
+}
+
+#headerFirstRow{
+    background-color: rgb(18,123,233);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#headerFirstRow > div{
+    height: 100%;
+    width: 70%;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#R{
+    vertical-align: middle;
+}
+
+#headerSecondRow{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#headerSecondRow > div{
+    width: 70%;
+    display: flex;
+}
+
+#headerSecondRow > div > div:first-of-type,
+#headerSecondRow > div > div:last-of-type{
+    width: 15%;
+}
+
+#headerSecondRow > div > div:nth-of-type(2){
+    width: 70%;
+}
+
+#headerSecondRow > div > div:first-of-type{
+    padding: 0.5rem 0;
+}
+
+#logo{
+    width: 40%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul > li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid transparent;
+}
+
+#headerSecondRow > div > div:last-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#search{
+    width: 60%;
+    padding: 0.1rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(18,123,233);
+    outline: none;
+    font-size: 0.9rem;
+}
+
+#search::placeholder{
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: right;
+    color: black;
+}
+
+#searchIcon{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+#searchBtn{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(18,123,233);
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+}
+
+nav > ul > li:hover{
+    color: rgb(18,123,233);
+    border-bottom: 3px solid rgb(18,123,233);
 }

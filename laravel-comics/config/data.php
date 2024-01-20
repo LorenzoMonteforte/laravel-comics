@@ -1,5 +1,17 @@
 <?php
     return  [
+        "navbar" => [
+            "CHARACTERS",
+            "COMICS",
+            "MOVIES",
+            "TV",
+            "GAMES",
+            "COLLECTIBLES",
+            "VIDEOS",
+            "FANS",
+            "NEWS",
+            "SHOP"
+        ],
         "comic_books" => [
             [
                 "title" => "Action Comics #1000: The Deluxe Edition",
