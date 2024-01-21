@@ -23,6 +23,18 @@ ul{
     color: rgb(18,123,233);
 }
 
+.fonSiz1_5rem{
+    font-size: 1.5rem;
+}
+
+.marTop0_5rem{
+    margin-top: 0.5rem;
+}
+
+.marLef1rem{
+    margin-left: 1rem;
+}
+
 #headerFirstRow{
     background-color: rgb(18,123,233);
     display: flex;
@@ -126,4 +138,94 @@ nav > ul > li{
 nav > ul > li:hover{
     color: rgb(18,123,233);
     border-bottom: 3px solid rgb(18,123,233);
+}
+
+#jumboContainer{
+    height: 300px;
+    overflow: hidden;
+}
+
+#jumboContainer > img{
+    width: 100%;
+}
+
+#cardsContainer{
+    background-color: rgb(31,31,31);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#cardsContainer > div{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+#cardsContainer > div > div:first-of-type{
+    background-color: rgb(18,123,233);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    translate: 0 -50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#cardsContainer > div > div:nth-of-type(2){
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc((100% - 5rem) / 6);
+}
+
+.card > img{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.card:nth-child(1n + 7){
+    margin-top: 1rem;
+}
+
+#cardsContainer > div > div:last-of-type{
+    margin-top: 1rem;
+    background-color: rgb(18,123,233);
+    padding: 0.5rem 3rem;
+}
+
+#mainLastRow{
+    background-color: rgb(18,123,233);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#mainLastRow > div{
+    width: 70%;
+    display: flex;
+}
+
+#mainLastRow > div > div{
+    height: 100%;
+    width: 20%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 25%;
 }
