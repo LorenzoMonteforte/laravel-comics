@@ -143,6 +143,52 @@
                     "srcIcon" => "img/buy-dc-power-visa.svg",
                     "title" => "DC POWER VISA"
                 ]
+            ],
+            "link_footer" => [
+                [
+                    "DC COMICS",
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News"
+                ],
+                [
+                    "Shop",
+                    "Shop DC",
+                    "Shop DC Collectibles"
+                ],
+                [
+                    "DC",
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us"
+                ],
+                [
+                    "SITES",
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa"
+                ]
+            ],
+            "follow_us" => [
+                "img/footer-facebook.png",
+                "img/footer-twitter.png",
+                "img/footer-youtube.png",
+                "img/footer-pinterest.png",
+                "img/footer-periscope.png"
             ]
     ]
 ?>
